@@ -11,12 +11,13 @@
     <groupId>com.app</groupId>
     <artifactId>MockService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>MockService</name>
     <description>MockService</description>
     <properties>
         <java.version>17</java.version>
         <jib.version>3.4.2</jib.version>
-        <image.tag>1.12</image.tag>
+        <image.tag>1.0</image.tag>
     </properties>
     <dependencies>
         <dependency>
@@ -33,7 +34,7 @@
                 <version>${jib.version}</version>
                 <configuration>
                     <to>
-                        <image>pavelboldienkov/${project.artifactId}:${image.tag}</image>
+                        <image>pavelboldienkov/mockservice:${image.tag}</image>
                     </to>
                 </configuration>
             </plugin>
