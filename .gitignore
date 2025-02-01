@@ -1,0 +1,169 @@
+# ------------------------
+# General Java & Spring Boot
+# ------------------------
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+log/
+*.out
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ------------------------
+# Maven Specific (if using Maven)
+# ------------------------
+
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+/maven-status/
+/mvnw
+/mvnw.cmd
+/.mvn/
+
+# ------------------------
+# Gradle Specific (if using Gradle)
+# ------------------------
+
+/build/
+.gradle
+/gradle/
+/out/
+/bin/
+/target/
+gradle-app.setting
+gradle.log
+
+# Gradle Wrapper
+/gradlew
+/gradlew.bat
+/.gradle/
+
+# ------------------------
+# IDE Specific
+# ------------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+/.idea_modules/
+/out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# VSCode
+.vscode/
+
+# NetBeans
+nbproject/
+*.nb-gradle/
+
+# ------------------------
+# OS Specific Files
+# ------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.*~
+
+# ------------------------
+# Environment & Configurations
+# ------------------------
+
+# Application properties
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.production
+
+# Database Files
+*.h2.db
+*.mv.db
+*.pgdata
+/data/
+db/
+
+# ------------------------
+# Dependency Caches
+# ------------------------
+
+/node_modules/
+/jspm_packages/
+.bower_components/
+
+# ------------------------
+# Docker & Kubernetes
+# ------------------------
+
+/docker-compose.override.yml
+/.docker/
+docker-compose*.yaml
+Dockerfile*
+/helm/
+
+# ------------------------
+# Security & Credentials
+# ------------------------
+
+*.pem
+*.crt
+*.key
+*.p12
+/secrets/
+certs/
+keys/
+
+# ------------------------
+# Others
+# ------------------------
+
+# Ignore test reports and coverage
+/test-output/
+/coverage/
+/jacoco/
+
+# Ignore compiled or generated files
+/generated/
+
+# Ignore personal custom files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# End of .gitignore
